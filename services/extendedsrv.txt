@@ -1,0 +1,52 @@
+Active Directory,_ldap._tcp,TCP
+Active Directory SSL/TLS,_ldaps._tcp,TCP
+AFS PTS (Distributed File System),_afs3-prserver._tcp,TCP
+AFS PTS (Distributed File System),_afs3-prserver._udp,UDP
+AFS VLDB (Distributed File System),_afs3-vlserver._tcp,TCP
+AFS VLDB (Distributed File System),_afs3-vlserver._udp,UDP
+CalDAV,_caldav._tcp,TCP
+CalDAV with SSL/TLS,_caldavs._tcp,TCP
+Diameter,_diameter._sctp,TCP
+Domain Controller of the Domain,_ldap._tcp.dc._msdcs._tcp,TCP
+FINGER,_finger._tcp,TCP
+FTP,_ftp._tcp,TCP
+HTTP,_http._tcp,TCP
+HTTPS,_https._tcp,TCP
+IAX,_iax._udp,UDP
+IMAP,_imap._tcp,TCP
+IMAP with SSL/TLS,_imaps._tcp,TCP
+Instant Messaging,_im._tcp,TCP
+Instant Messaging Pressence,_pres._tcp,TCP
+Jini Service,_jini._tcp,TCP
+KERBEROS Adm server,_kerberos-adm._tcp,TCP
+KERBEROS KDC,_kerberos._tcp.dc._msdcs,TCP
+KERBEROS,_kerberos._tcp,TCP
+KERBEROS,_kerberos._udp,UDP
+KERBEROS Master,_kerberos-master._udp,UDP
+KERBEROS Password change,_kpasswd._udp,UDP
+KERBEROS v4,_kerberos-iv._udp,UDP
+Message submision for Mail,_submission._tcp,TCP
+Microsoft Key Management,_vlmcs._tcp,TCP
+NFS,_nfs-domainroot._tcp,TCP
+POP3,_pop3._tcp,TCP
+POP3 with SSL/TLS,_pop3s._tcp,TCP
+Primary Domain Controller of the Domain,_ldap._tcp.pdc._msdcs._tcp,TCP
+RCDS protocol,_rcds._udp,UDP
+Simple Object Access Protocol,_soap._tcp,TCP
+SIP Internal,_sipinternal._tcp,TCP
+SIP Internal,_sipinternal._udp,UDP
+SIP Internal with SSL/TLS,_sipinternaltls._tcp,TCP
+SIP,_sip._tcp,TCP
+SIP,_sip._udp,UDP
+SSH,_ssh._tcp,TCP
+SIP Access Edge,_sip._tls,TCP
+SIP Access Edge,_sipfederationtls._tcp,TCP
+Sun Grid Engine,_sge-qmaster._tcp,TCP
+TELNET,_telnet._tcp,TCP
+UPNP (Universal Plug and Play),_upnp._tcp,TCP
+Web Services,_ws._tcp,TCP
+WHOIS,_nicname._tcp,TCP
+XMPP Client to Server,_xmpp-client._tcp,TCP
+XMPP Server to Server,_xmpp-server._tcp,TCP
+Z39.50 protocol,_z3950._tcp,TCP
+Jabber Client to Server,_jabber-client._tcp,TCP
