@@ -33,7 +33,7 @@ Where the parameters are:
 Output Example
 --------------
 
-root@stark /home/harvester/Tools/DNSProspect # ./dnsprospect.sh domains/top1000domains.txt output.csv small
+root@stark /home/perico/Tools/DNSProspect # ./dnsprospect.sh domains/top1000domains.txt output.csv small
 
 Prospecting with the following configuration:
  - Domains: File domains/top1000domains.txt
