@@ -14,8 +14,10 @@
 DNSFILE="openresolvers/spain.txt"
 DNSSERVERS=()
 SRVFILE="services/extendedsrv.txt"
+VERSION="v1.0"
 
 ###### FUNCTIONS ######
+
 
 function lightblue(){ 
     echo $(tput setaf 6)$1$(tput sgr0) 
@@ -47,6 +49,14 @@ function yellow(){
 
 function printUsage(){
     echo "Usage: $0 <domains file | domain name> <output csv file> [<extended | small>]"
+}
+
+function showBanner(){
+    lightblue "========================"
+    lightblue "==  DNSProspect $VERSION  =="
+    lightblue "== Author: @felmoltor =="
+    lightblue "========================"
+    lightblue ""
 }
 
 function valid_ip()
@@ -175,6 +185,8 @@ function main(){
     local domains=$1
     local csvoutput=$2
     local prospectmode=$3
+
+    showBanner
 
     if [[ "$domains" == "" || "$csvoutput" == "" ]]
     then
